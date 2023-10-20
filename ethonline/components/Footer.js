@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import styles from '../styles/Home.module.css'
 
 
 
@@ -8,7 +9,6 @@ return (
 <>
     <hr className='my-6 mx-20' />
     <footer className={styles.footer}>
-        
     <div className='flex items-center justify-center space-x-4 cursor-pointer '>
 
 
@@ -36,7 +36,7 @@ return (
        
     </div>
     <div className='text-white my-4'>
-        Copyright © 2023 swiftfeed Inc. All rights reserved
+        Copyright © 2023 SAFDocs Inc. All rights reserved
         </div>
 
     </div>
