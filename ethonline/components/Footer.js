@@ -36,7 +36,7 @@ return (
        
     </div>
     <div className='text-white my-4'>
-        Copyright © 2023 SAFDocs Inc. All rights reserved
+        Copyright © 2023 SAFdocs Inc. All rights reserved
         </div>
 
     </div>
