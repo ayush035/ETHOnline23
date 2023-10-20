@@ -64,7 +64,7 @@ function MyApp({ Component, pageProps }) {
       <RainbowKitProvider appInfo={demoAppInfo} 
       chains={chains}
       theme={midnightTheme({
-        accentColor: '#81C784',
+        accentColor: '#0097A7',
         accentColorForeground: 'white',
         borderRadius: 'medium',})}>
         <Component {...pageProps} />
