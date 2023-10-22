@@ -42,7 +42,9 @@ export default function profile()
         
         </ul>
         </nav>
-
+        <nav className=' flex justify-between h-12 text-cyan-700 bg-cyan-700   font-bold' >
+                <span className='mx-20 my-2 flex text-white text-xl cursor-pointer '>+Add Biometrics</span>
+                </nav>
 
   <Footer/>
   </>
