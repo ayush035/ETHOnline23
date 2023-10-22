@@ -16,14 +16,12 @@ export default function Navbar() {
             <Link href="/biometric">Biometrics</Link></div>
         <div className='hover:text-white delay-50  text-md font-semibold font-mono'>
         
-            <Link href="/search">Your Docs</Link></div>
+            <Link href="/docs1">Your Docs</Link></div>
 
             <div className='hover:text-white delay-50  text-md font-semibold font-mono'>
         
             <Link href="/post">Upload</Link></div>
-            <div className='hover:text-white delay-50 text-md font-semibold font-mono '>
-        
-            <Link href="/">Profile</Link></div>
+            
               {/* <div className=' mx-2 my-2 '> */}         
         <ConnectButton/>
             </ul>
