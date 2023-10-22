@@ -17,5 +17,13 @@ module.exports = {
         chainId: 314,
         url: "https://api.node.glif.io",
         accounts: [PRIVATE_KEY],
-    }}
+    },
+        scrollSepolia: {
+          url: "https://sepolia-rpc.scroll.io/" || "",
+          accounts:
+            process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
+        }
+    
+
+}
   
