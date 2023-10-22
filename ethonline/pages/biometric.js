@@ -2,6 +2,7 @@ import Footer from '../components/Footer'
 import React, { useState, useReducer } from 'react'
 import Image from 'next/image'
 import Navbar from '../components/Navbar'
+import Link from 'next/link'
 import { Web3Storage } from 'web3.storage'
 
 
@@ -22,6 +23,26 @@ export default function profile()
         Biometric data
     </div>
   </div>
+
+  <nav className=' flex justify-between h-12 text-cyan-700 bg-black   font-bold' >
+                <span className='mx-20 my-2 flex text-white text-xl cursor-pointer '>Fingerprint 1</span>
+                <ul className= 'px-2 py-3 flex space-x-10 mx-12 '>
+
+        
+        <div className='hover:text-white delay-50  text-red-500 text-md font-semibold font-mono'> Delete</div>
+        
+        </ul>
+        </nav>
+        <nav className=' flex justify-between h-12 text-cyan-700 bg-black   font-bold' >
+                <span className='mx-20 my-2 flex text-white text-xl cursor-pointer '>Fingerprint 2</span>
+                <ul className= 'px-2 py-3 flex space-x-10 mx-12 '>
+
+        
+        <div className='hover:text-white delay-50  text-red-500 text-md font-semibold font-mono'> Delete</div>
+        
+        </ul>
+        </nav>
+
 
   <Footer/>
   </>
